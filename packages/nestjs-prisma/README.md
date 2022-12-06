@@ -6,13 +6,11 @@
 
 ## Table of content
 
-- [Initial Configuration](#initialconfig)
-- [Database Configuration](#dbconfig)
+- [Initial Configuration](#initial-configuration)
+- [Database Configuration](#database-configuration)
 - [Migrations](#migrations)
 
 ---
-
-<div id="initialconfig"></div>
 
 ## Initial Configuration
 
@@ -34,8 +32,6 @@
 
         $ npx prisma init
 
-<div id="dbconfig"></div>
-
 ## Database Configuration
 
 5.  Prisma currently supports PostgreSQL, MySQL, SQL Server, SQLite, MongoDB and CockroachDB.
@@ -52,8 +48,6 @@
 6.  Adjust `.env` file with the database credencials
 
         DATABASE_URL="mysql://USER:PASSWORD@HOST:PORT/DATABASE"
-
-<div id="migrations"></div>
 
 ## Migrations
 

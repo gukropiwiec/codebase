@@ -1,5 +1,9 @@
 # Codebase
 
+- [Installing dependencies for all packages](#installing-dependencies-for-all-packages)
+- [New package configuration](#new-package-configuration)
+- [Use internal packages inside other packages:](#use-internal-packages-inside-other-packages)
+
 ### Monorepo of a codebase for personal projects, this setup uses [Turbo](https://turbo.build/).
 
 ---
@@ -12,7 +16,7 @@
 
 ### When creating a new package, there are some base configurations to know:
 
-- .eslintrc.js and .prettierrc are used in all packages, unless you create a new one in a specific package
+- `.eslintrc.js` and `.prettierrc` are used in all packages, unless you create a new one in a specific package
 - The new folder needs to be inside `packages` folder, or create a new workspace in the root `package.json`
 - Use base tsconfig on new package:
 
