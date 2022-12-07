@@ -2,7 +2,7 @@
 
 - [Installing dependencies for all packages](#installing-dependencies-for-all-packages)
 - [New package configuration](#new-package-configuration)
-- [Use internal packages inside other packages:](#use-internal-packages-inside-other-packages)
+- [Use internal packages inside other packages](#use-internal-packages-inside-other-packages)
 
 ### Monorepo of a codebase for personal projects, this setup uses [Turbo](https://turbo.build/).
 
